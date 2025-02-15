@@ -13,46 +13,6 @@ Feel free to download the data and play around with it yourself.
 
 Below is a chat conversation with ChatGPT analyzing the results.
 
-<html>
-<head>
-  <title>ChatGPT Conversation Data</title>
-  <style>
-    body {
-      margin: 20px;
-    }
-
-    h4 {
-      font-family: sans-serif;
-      margin: 0;
-    }
-
-    #root {
-      display: flex;
-      flex-direction: column;
-      gap: 20px;
-    }
-
-    .conversation {
-      border: 1px solid black;
-      padding: 20px;
-      background-color: #f3f3f3;
-    }
-
-    .message {
-      white-space: pre-wrap;
-      margin: 20px 0;
-    }
-
-    .author {
-      font-weight: bold;
-      margin-bottom: 4px;
-    }
-
-    .author::first-letter {
-      text-transform: uppercase;
-    }
-  </style>
-</head>
 
 <body>
   <div id="root">
@@ -435,5 +395,3 @@ With *Emilia P&eacute;rez* removed and *The Brutalist* weakened, *Anora* emerges
   </div>
 
 </body>
-
-</html>
