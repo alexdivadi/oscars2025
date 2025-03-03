@@ -1,3 +1,108 @@
+# Results 🥁
+
+These were the final guesses by ChatGPT after analyzing the data and doing some fine-tuning:
+<table>
+  <tr>
+    <th>Prediction</th>
+    <th>Result</th>
+  </tr>
+  <tr>
+    <td>Best Picture - Anora</td>
+    <td>✅</td>
+  </tr>
+  <tr>
+    <td>Best Director - Sean Baker (Anora)</td>
+    <td>✅</td>
+  </tr>
+  <tr>
+    <td>Best Actor - Adrien Brody (The Brutalist)</td>
+    <td>✅</td>
+  </tr>
+  <tr>
+    <td>Best Actress - Mikey Madison (Anora)</td>
+    <td>✅</td>
+  </tr>
+  <tr>
+    <td>Best Supporting Actor - Yura Borisov (Anora)</td>
+    <td>❌ (Kieran Culkin, A Real Pain)</td>
+  </tr>
+  <tr>
+    <td>Best Supporting Actress - Felicity Jones (The Brutalist)</td>
+    <td>❌ (Zoe Saldaña, Emilia Pérez)</td>
+  </tr>
+  <tr>
+    <td>Best Cinematography - Lol Crawley (The Brutalist)</td>
+    <td>✅</td>
+  </tr>
+  <tr>
+    <td>Best Film Editing - Sean Baker (Anora)</td>
+    <td>✅</td>
+  </tr>
+  <tr>
+    <td>Best Production Design - The Brutalist</td>
+    <td>❌ (Wicked)</td>
+  </tr>
+  <tr>
+    <td>Best Sound - Wicked</td>
+    <td>❌ (Dune: Part Two)</td>
+  </tr>
+  <tr>
+    <td>Best Visual Effects - Wicked</td>
+    <td>❌ (Dune: Part Two)</td>
+  </tr>
+  <tr>
+    <td>Best Costume Design - Conclave</td>
+    <td>❌ (Wicked)</td>
+  </tr>
+  <tr>
+    <td>Best Makeup & Hairstyling - The Substance</td>
+    <td>✅</td>
+  </tr>
+  <tr>
+    <td>Best Original Score - Daniel Blumberg (The Brutalist)</td>
+    <td>✅</td>
+  </tr>
+  <tr>
+    <td>Best Original Song - Like A Bird (Sing Sing)</td>
+    <td>❌ (El Mal, Emilia Pérez)</td>
+  </tr>
+  <tr>
+    <td>Best Animated Feature - Flow</td>
+    <td>✅</td>
+  </tr>
+  <tr>
+    <td>Best International Feature - Flow (Latvia)</td>
+    <td>❌ (I'm Still Here)</td>
+  </tr>
+  <tr>
+    <td>Best Documentary Feature - No Other Land</td>
+    <td>✅</td>
+  </tr>
+  <tr>
+    <td>Best Documentary Short - Incident</td>
+    <td>❌ (The Only Girl in the Orchestra)</td>
+  </tr>
+  <tr>
+    <td>Best Animated Short - Wander to Wonder</td>
+    <td>❌ (In the Shadow of the Cypress)</td>
+  </tr>
+  <tr>
+    <td>Best Live Action Short - The Man Who Could Not Remain Silent</td>
+    <td>❌ (I'm Not a Robot)</td>
+  </tr>
+  <tr>
+    <td>Best Adapted Screenplay - Conclave</td>
+    <td>✅</td>
+  </tr>
+  <tr>
+    <td>Best Original Screenplay - Anora</td>
+    <td>✅</td>
+  </tr>
+</table>
+
+Out of 23 categories, 12 were correct, about 52%. The model predicted major categories correctly, but missed on the smaller categories with less information, such as best documentary short. It also missed out on some easy-to-predict categories like sound and visual effects. This is still ultimately better than the first pass, which guessed solely based on the number of awards each film had won.
+Next year I'll try collecting historical data and making a simple linear model to hopefully make some more accurate predictions. Perhaps pulling data from IMDb or X would benefit the model's performance too.
+
 # Oscar's 2025 Data Prediction
 
 This is a collection of data for the 2025 Oscar nominees and their award history.
